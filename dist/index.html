@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bisection method</title>
+    <link rel="stylesheet" href="/index.4717fcfd.css">
+</head>
+<body class="bg-dark">
+
+  <div class="container mt-5">
+    <form class="row g-3 text-light">
+      <div class="col-md-1 col-4">
+        <label for="a" class="form-label">a</label>
+        <input type="text" class="form-control" id="a" placeholder="0" value="1">
+      </div>
+      <div class="col-md-1 col-4">
+        <label for="b" class="form-label">b</label>
+        <input type="text" class="form-control" id="b" placeholder="0" value="0">
+      </div>
+      <div class="col-md-1 col-4">
+        <label for="c" class="form-label">c</label>
+        <input type="text" class="form-control" id="c" placeholder="0" value="0">
+      </div>
+      <div class="col-md-1 col-4">
+        <label for="d" class="form-label">d</label>
+        <input type="text" class="form-control" id="d" placeholder="0" value="0">
+      </div>
+      <div class="col-md-1 col-4">
+        <label for="e" class="form-label">e</label>
+        <input type="text" class="form-control" id="e" placeholder="0" value="1">
+      </div>
+      <div class="col-md-1 col-4">
+        <label for="g" class="form-label">g</label>
+        <input type="text" class="form-control" id="g" placeholder="0" value="-1">
+      </div>
+      <div class="col-md-1 col-4">
+        <label for="x1" class="form-label">x<sub>1</sub></label>
+        <input type="text" class="form-control" id="x1" placeholder="0" value="0">
+      </div>
+      <div class="col-md-1 col-4">
+        <label for="x2" class="form-label">x<sub>2</sub></label>
+        <input type="text" class="form-control" id="x2" placeholder="0" value="1">
+      </div>
+      <div class="col-md-1 col-4">
+        <label for="epsilon" class="form-label">epsilon</label>
+        <input type="text" class="form-control" id="epsilon" placeholder="0.000" value="0.01">
+      </div>
+      <div class="col-md-2">
+        <label for="method" class="form-label">method</label>
+        <select id="method" class="form-select">
+          <option selected="">bisection</option>
+        </select>
+      </div>
+      <div class="col-12">
+        <div class="form-check">
+          <input class="form-check-input" type="checkbox" id="show_steps">
+          <label class="form-check-label" for="showSteps">
+            show steps
+          </label>
+        </div>
+      </div>
+      <div class="col-12">
+        <a class="btn btn-primary" id="submit">submit</a>
+      </div>
+      <div class="col-12 bg-light text-dark" id="result_div">
+        <h1 class="display-1 opacity-25">fillout the form above</h1>
+        <ul class="list-group"></ul>
+      </div>
+    </form>
+  </div>
+
+    <script src="/index.4f492e9b.js"></script>
+<script src="/bisectionMethod.59712999.js"></script></body>
+</html>
